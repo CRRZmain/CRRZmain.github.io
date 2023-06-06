@@ -127,7 +127,16 @@ $(document).ready(function(){
 	
 	
 	
-	$("#works, #testimonial").owlCarousel({	 
+	/*$("#works, #testimonial").owlCarousel({	 
+		navigation : true,
+		pagination : false,
+		slideSpeed : 700,
+		paginationSpeed : 400,
+		singleItem:true,
+		navigationText: ["<i class='fa fa-angle-left fa-lg'></i>","<i class='fa fa-angle-right fa-lg'></i>"]
+	});*/
+	
+    $("#works").owlCarousel({	 
 		navigation : true,
 		pagination : false,
 		slideSpeed : 700,
@@ -135,7 +144,6 @@ $(document).ready(function(){
 		singleItem:true,
 		navigationText: ["<i class='fa fa-angle-left fa-lg'></i>","<i class='fa fa-angle-right fa-lg'></i>"]
 	});
-	
 	
 	/* ========================================================================= */
 	/*	Featured Project Lightbox

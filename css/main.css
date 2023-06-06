@@ -718,32 +718,32 @@ ul.external li a:hover {
 }
 
 /*=================================================================
-	Testimonials
+	Team
 ==================================================================*/
 
 
-#testimonials {
+#team {
     background-image: url(../img/parallax/banner-1.jpg);
     padding: 0;
     color: #fff;
 }
 
-#testimonials .sec-title h2:after {
+#team .sec-title h2:after {
     border-bottom: 1px solid #fff;
 }
 
-#testimonials .overlay {
+#team .overlay {
     background-color: rgba(15,155,224, 0.78);
     padding: 70px 0 40px;
 }
 
-.testimonial-item {
+.team-item {
     margin: 0 auto;
     padding-bottom: 50px;
     width: 64%;
 }
 
-.testimonial-item img {
+.team-item img {
     border: 3px solid #fff;
     border-radius: 50%;
     display: inline-block;
@@ -751,12 +751,12 @@ ul.external li a:hover {
     max-width: 100px;
 }
 
-.testimonial-item > div {
+.team-item > div {
     line-height: 30px;
     position: relative;
 }
 
-.testimonial-item > div:before {
+.team-item > div:before {
     background-image: url("../img/icons/quotes.png");
     background-repeat: no-repeat;
     bottom: 127px;
@@ -766,7 +766,7 @@ ul.external li a:hover {
     width: 45px;
 }
 
-.testimonial-item > div:after {
+.team-item > div:after {
     background-image: url("../img/icons/quotes.png");
     background-position: -58px 0;
     background-repeat: no-repeat;
@@ -777,25 +777,25 @@ ul.external li a:hover {
     width: 45px;
 }
 
-.testimonial-item > div > span {
+.team-item > div > span {
     display: inline-block;
     font-weight: 700;
     margin: 40px 0 30px;
     text-transform: uppercase;
 }
 
-#testimonials .owl-controls.clickable {
+#team .owl-controls.clickable {
     margin-top: 20px;
     text-align: center;
 }
 
-#testimonials .owl-buttons {
+#team .owl-buttons {
     border: 2px solid #fff;
     float: inherit;
 }
 
-#testimonials .owl-prev:hover,
-#testimonials .owl-next:hover {
+#team .owl-prev:hover,
+#team .owl-next:hover {
     color: #fff;
 }
 
@@ -1146,7 +1146,7 @@ textarea.form-control {
         bottom: -151px;
     }
 
-    .testimonial-item > div:after {
+    .team-item > div:after {
         bottom: -40px;
     }
 }
@@ -1186,15 +1186,15 @@ textarea.form-control {
     }
 
 /* testimonial */
-    .testimonial-item {
+    .team-item {
         width: 100%;
     }
 
-    .testimonial-item {
+    .team-item {
         width: 80%;
     }
 
-    .testimonial-item > div:after {
+    .team-item > div:after {
         bottom: -35px;
     }
 
@@ -1311,16 +1311,16 @@ textarea.form-control {
     }
 
 /* testimonial */
-    .testimonial-item {
+    .team-item {
         width: 95%;
     }
 
-    .testimonial-item > div:before,
-    .testimonial-item > div:after {
+    .team-item > div:before,
+    .team-item > div:after {
         background-image: none;
     }
 
-    .testimonial-item > div > span {
+    .team-item > div > span {
         margin: 30px 0 20px;
     }
 
@@ -1402,11 +1402,11 @@ textarea.form-control {
     }
 
 /* testimonial */
-    .testimonial-item {
+    .team-item {
         width: 80%;
     }
 
-    .testimonial-item > div:before {
+    .team-item > div:before {
         bottom: 160px;
     }
 
