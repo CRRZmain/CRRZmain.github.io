@@ -3,25 +3,40 @@
 <!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html lang="en" class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="no-js" itemscope itemtype="https://schema.org/Organization"> <!--<![endif]-->
     <head>
     	<!-- meta character set -->
         <meta charset="utf-8">
 		<!-- Always force latest IE rendering engine or request Chrome Frame -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>CRRZ</title>
+        <title>CRRZ d.o.o. - Data Science & Machine Learning Solutions</title>
 		<!-- Meta Description -->
-        <meta name="description" content="CRRZ d.o.o.">
-        <meta name="keywords" content="CRRZ d.o.o., machine learning, data science, business">
+        <meta name="description" content="CRRZ d.o.o. specializes in machine learning, data science, process automation, and data analysis. Transform your data into actionable insights with our expert team in Slovenia.">
+        <meta name="keywords" content="CRRZ d.o.o., machine learning, data science, data analysis, process automation, cloud solutions, Slovenia, business intelligence">
         <meta name="author" content="Jan Pavlin">
+		
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://crrz.org/">
+		<meta property="og:title" content="CRRZ d.o.o. - Data Science & Machine Learning Solutions">
+		<meta property="og:description" content="Specializing in machine learning, data science, process automation, and data analysis. Transform your data into actionable insights.">
+		
+		<!-- Twitter -->
+		<meta property="twitter:card" content="summary_large_image">
+		<meta property="twitter:url" content="https://crrz.org/">
+		<meta property="twitter:title" content="CRRZ d.o.o. - Data Science & Machine Learning Solutions">
+		<meta property="twitter:description" content="Specializing in machine learning, data science, process automation, and data analysis.">
 		
 		<!-- Mobile Specific Meta -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		
+		<!-- Favicon -->
+		<link rel="icon" type="image/x-icon" href="favicon.ico">
+		
 		<!-- CSS
 		================================================== -->
 		
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
 		
 		<!-- Fontawesome Icon font -->
         <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -60,7 +75,7 @@
             <div class="container">
                 <div class="navbar-header">
                     <!-- responsive nav button -->
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" aria-label="Toggle navigation menu" aria-expanded="false">
 						<span class="sr-only">Toggle navigation</span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
@@ -70,7 +85,7 @@
 					
 					<!-- logo -->
 					<h1 class="navbar-brand">
-						<a href="#body">CRRZ d.o.o.</a>
+						<a href="#body" aria-label="CRRZ d.o.o. Home">CRRZ d.o.o.</a>
 					</h1>
 					<!-- /logo -->
                 </div>
@@ -78,13 +93,16 @@
 				<!-- main nav -->
                 <nav class="collapse navbar-collapse navbar-right" role="navigation">
                     <ul id="nav" class="nav navbar-nav">
-                        <li><a href="#body">Home</a></li>
-						<li><a href="#about">About</a></li>
-                        <li><a href="#service">Service</a></li>
+                        <li><a href="#body" data-translate="nav.home">Home</a></li>
+						<li><a href="#about" data-translate="nav.about">About</a></li>
+                        <li><a href="#service" data-translate="nav.service">Service</a></li>
                         <!--<li><a href="#portfolio">portfolio</a></li>-->
-                        <li><a href="#team">Team</a></li>
+                        <li><a href="#team" data-translate="nav.team">Team</a></li>
                         <!--<li><a href="#price">price</a></li>-->
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#contact" data-translate="nav.contact">Contact</a></li>
+                        <li class="language-switcher">
+                            <a href="#" id="lang-en" class="lang-btn active" data-lang="en">EN</a><span class="lang-separator">/</span><a href="#" id="lang-si" class="lang-btn" data-lang="si">SI</a>
+                        </li>
                     </ul>
                 </nav>
 				<!-- /main nav -->
@@ -110,10 +128,10 @@
 
 						<div class="bg-img bg-img-1"></div>
 
-						<div class="slide-caption">
+                        <div class="slide-caption">
                             <div class="caption-content">
                                 <h2 class="animated fadeInDown">CRRZ</h2>
-                                <span class="animated fadeInDown">Data science solutions.</span>
+                                <span class="animated fadeInDown" data-translate="slider.tagline">Data science solutions.</span>
                             </div>
                         </div>
 					</div>
@@ -197,30 +215,14 @@
 						</div>
 						<div class="col-md-7 col-md-offset-1 wow animated fadeInRight">
 							<div class="welcome-block">
-								<h3>About us</h3>
+								<h3 data-translate="about.title">About us</h3>
 						     	 <div class="message-body">
 									<!--<img src="img/member-1.jpg" class="pull-left" alt="member">-->
-						       		<p>
-										Introducing CRRZ, a team of three ambitious
-										programmers specializing in machine learning, data science,
-										process automation, and data analysis. With a strong commitment
-										to innovation and a wealth of expertise, we offer comprehensive
-										solutions that transform raw data into actionable insights. Our
-										proficiency in machine learning allows us to develop intelligent
-										systems that learn, adapt, and optimize processes, empowering
-										businesses to make data-driven decisions and achieve remarkable
-										outcomes. Utilizing advanced data analysis techniques, we uncover
-										hidden patterns, trends, and opportunities, enabling organizations
-										to unlock their full potential. With a keen focus on process
-										automation, we streamline operations, increase efficiency, and
-										reduce manual efforts, empowering businesses to thrive in the
-										digital age.
-
-
-										<!-- We are experts in machines learning and data science.
-										For different use cases first prepare data and use different machines learning models 
-											(e. g. xgboost, deep neural networks (lstm, convolutional), SVD), clustering techniques.
-										We analyse results, prepare reports and then interpret results. -->
+						       		<p data-translate="about.paragraph1">
+										CRRZ is a team of ambitious programmers specializing in machine learning, data science, process automation, and data analysis. We transform raw data into actionable insights through advanced analytics and intelligent systems.
+									</p>
+									<p data-translate="about.paragraph2">
+										Our expertise in machine learning enables us to develop systems that learn, adapt, and optimize processes, while our data analysis capabilities help uncover hidden patterns and opportunities. With a focus on process automation, we streamline operations and increase efficiency, empowering businesses to make data-driven decisions and thrive in the digital age.
 									</p>
 						     	 </div>
 						       	<!--<a href="#" class="btn btn-border btn-effect pull-right">Read More</a>-->
@@ -237,31 +239,25 @@
 				<div class="container">
 					<div class="row">
 						<div class="sec-title text-center">
-							<h2 class="wow animated bounceInLeft">Service</h2>
-							<p class="wow animated bounceInRight">The Key Features of our Job</p>
+							<h2 class="wow animated bounceInLeft" data-translate="service.title">Service</h2>
+							<p class="wow animated bounceInRight" data-translate="service.subtitle">The Key Features of our Job</p>
 						</div>
 						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.3s">
 							<div class="service-item">
 								<div class="service-icon">
-									<i class="fa fa-home fa-3x"></i>
+									<i class="fa fa-flask fa-3x"></i>
 								</div>
-								<h3>Data Science </h3>
-								<p>	We leverage statistical modeling,
-									machine learning, and predictive analytics
-									to help businesses gain actionable insights,
-									optimize processes, and unlock hidden opportunities
-									for success.</p>
+								<h3 data-translate="service.dataScience.title">Data Science</h3>
+								<p data-translate="service.dataScience.description">We leverage statistical modeling, machine learning, and predictive analytics to help businesses gain actionable insights and optimize processes.</p>
 							</div>
 						</div>
 						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.6s">
 							<div class="service-item">
 								<div class="service-icon">
-									<i class="fa fa-desktop fa-3x"></i>
+									<i class="fa fa-cogs fa-3x"></i>
 								</div>
-								<h3>Machine Learning</h3>
-								<p>We offer advanced machine learning solutions that
-									leverage data to drive innovation,
-									automation, and actionable insights for businesses.</p>
+								<h3 data-translate="service.machineLearning.title">Machine Learning</h3>
+								<p data-translate="service.machineLearning.description">We develop advanced machine learning solutions that leverage data to drive innovation, automation, and actionable insights for businesses.</p>
 							</div>
 						</div>
 					
@@ -270,26 +266,18 @@
 								<div class="service-icon">
 									<i class="fa fa-bar-chart fa-3x"></i>
 								</div>
-								
-								<h3>Data Analysis</h3>
-								<p>We provide comprehensive data analysis services,
-									helping businesses identify patterns,
-									and make data-driven decisions
-									for enhanced efficiency and growth.</p>
+								<h3 data-translate="service.dataAnalysis.title">Data Analysis</h3>
+								<p data-translate="service.dataAnalysis.description">We provide comprehensive data analysis services, helping businesses identify patterns and make data-driven decisions for enhanced efficiency and growth.</p>
 							</div>
 						</div>
 
 						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn">
 							<div class="service-item">
 								<div class="service-icon">
-									<i class="fa fa-tasks fa-3x"></i>
+									<i class="fa fa-cloud fa-3x"></i>
 								</div>
-								<h3>Cloud</h3>
-								<p>We are proficient in cloud technologies,
-									offering expertise in working with cloud
-									platforms to seamlessly store, process,
-									and analyze data, ensuring secure and
-									efficient operations for our clients.</p>
+								<h3 data-translate="service.cloud.title">Cloud Solutions</h3>
+								<p data-translate="service.cloud.description">We offer expertise in cloud technologies, enabling seamless storage, processing, and analysis of data with secure and efficient operations.</p>
 							</div>
 						</div>
 
@@ -395,15 +383,15 @@
 						<div class="row">
 						
 							<div class="sec-title text-center white wow animated fadeInDown">
-								<h2>Team</h2>
+								<h2 data-translate="team.title">Team</h2>
 							</div>
 							<div class=" wow animated fadeInUp"> <!-- add heere id fo corosel -->
 								<div class="team-item text-center">
-									<img src="img/jan.jpeg" alt="Our Clients">
+									<img src="img/jan.jpeg" alt="Jan - Master of Computer Science, Machine Learning and Data Science" loading="lazy">
 									<div>
 										<span>Jan</span>
-										<p>Master of computer science </p>
-										<p> Machine learning, Data science</p>
+										<p data-translate="team.jan.degree">Master of computer science </p>
+										<p data-translate="team.jan.skills"> Machine learning, Data science, Cloud solutions</p>
 										<!--<p>
 											<a href="https://si.linkedin.com/"
 											 	target="_blank" class="team-social">
@@ -414,11 +402,11 @@
 								</div>
 
 								<div class="team-item text-center">
-									<img src="img/empty-avatar.png" alt="Our Clients">
+									<img src="img/empty-avatar.png" alt="Grega - Master of Engineering, Data Analytics and BI tools" loading="lazy">
 									<div>
 										<span>Grega</span>
-										<p>Master of Engieneering </p>
-										<p>Data Analytics, BI tools</p>
+										<p data-translate="team.grega.degree">Master of Engineering </p>
+										<p data-translate="team.grega.skills">Data Analytics, BI tools</p>
 										<!--<p>
 											<a href="https://si.linkedin.com/"
 											 	target="_blank" class="team-social">
@@ -429,11 +417,11 @@
 								</div>
 
 								<div class="team-item text-center">
-									<img src="img/uros.jpeg" alt="Our Clients">
+									<img src="img/empty-avatar.png" alt="Uroš - Master of Multimedia" loading="lazy">
 									<div>
 										<span>Uroš</span>
-										<p>Master of Multimedia</p>
-										<p>Cloud solutions, process automatization</p>
+										<p data-translate="team.uros.degree">Master of Multimedia</p>
+										<p data-translate="team.uros.skills">Cloud solutions, process automatization</p>
 										<!--<p>
 											<a href="https://si.linkedin.com/"
 											 	target="_blank" class="team-social">
@@ -561,7 +549,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="sec-title text-center wow animated fadeInDown">
-							<h2>Contact</h2>
+							<h2 data-translate="contact.title">Contact</h2>
 							<!--<p>Leave a Message</p>-->
 						</div>
 						
@@ -587,11 +575,11 @@
 								<!--<h3>Contact Us</h3>-->		
 								<p><i class="fa fa-pencil"></i>
 									CRRZ d.o.o
-									<span>K Roku 136</span>
-									<span>8000, Novo mesto </span>
+									<span>Makute 53c</span>
+									<span>8323, Uršna sela</span>
 									<span>Slovenia</span></p><br>
 								<p><i class="fa fa-phone"></i> Phone: <a href="tel:+38640655583">(+386) 40 655 583</a>  </p>
-								<p><i class="fa fa-envelope"></i>  <a href = "mailto:i-crrz@outlook.com">i-crrz@outlook.com</a></p>
+								<p><i class="fa fa-envelope"></i>  <a href = "mailto:info@crrz.org">info@crrz.org</a></p>
 							</address>
 						</div>
 			
@@ -632,7 +620,7 @@
 							</ul>
 						</div>-->
 						
-						<p>Copyright &copy; 2023 </p>
+						<p>Copyright &copy; <span id="copyright-year">2024</span> CRRZ d.o.o. All rights reserved.</p>
 					</div>
 				</div>
 			</div>
@@ -659,7 +647,13 @@
         <script src="js/jquery.ba-cond.min.js"></script>
 		<!-- onscroll animation -->
         <script src="js/wow.min.js"></script>
+		<!-- Translations -->
+        <script src="js/translations.js"></script>
 		<!-- Custom Functions -->
         <script src="js/main.js"></script>
+		<script>
+			// Update copyright year dynamically
+			document.getElementById('copyright-year').textContent = new Date().getFullYear();
+		</script>
     </body>
 </html>

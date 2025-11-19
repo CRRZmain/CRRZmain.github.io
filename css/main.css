@@ -1444,3 +1444,51 @@ textarea.form-control {
 .team-social:hover {
     opacity: 0.8;
 }
+
+/*=================================================================
+	Language Switcher
+==================================================================*/
+
+.language-switcher {
+    margin-left: 15px;
+    padding-left: 15px;
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    white-space: nowrap;
+}
+
+.language-switcher .lang-btn {
+    color: #e4e4e4;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 10px 5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.language-switcher .lang-btn:hover,
+.language-switcher .lang-btn.active {
+    color: #fff;
+    font-weight: 700;
+}
+
+.language-switcher .lang-separator {
+    color: #e4e4e4;
+    margin: 0 3px;
+    font-size: 15px;
+    display: inline-block;
+}
+
+@media (max-width: 767px) {
+    .language-switcher {
+        margin-left: 0;
+        padding-left: 0;
+        border-left: none;
+        padding-top: 10px;
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+        margin-top: 10px;
+    }
+}
